@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Vista previa al compartir -->
+  <meta property="og:title" content="Publicación">
+  <meta property="og:description" content="Mira esta publicación">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tiktokviewreel.github.io/view/">
+  <meta property="og:image" content="https://tiktokviewreel.github.io/view/imagen.jpg">
+
+  <title>Publicación</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f0f2f5;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1c1e21;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 35px auto;
+      padding: 0 12px;
+    }
+
+    .post {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.15);
+      overflow: hidden;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 14px;
+    }
+
+    .avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    .time {
+      font-size: 12px;
+      color: #65676b;
+      margin-top: 3px;
+    }
+
+    .content {
+      padding: 0 14px 14px;
+      font-size: 15px;
+    }
+
+    .preview {
+      border: 1px solid #dddfe2;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    .preview img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .preview-text {
+      padding: 12px;
+    }
+
+    .preview-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .preview-description {
+      color: #65676b;
+      font-size: 14px;
+    }
+
+    .button-area {
+      padding: 14px;
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      width: 100%;
+      padding: 13px;
+      border-radius: 7px;
+      background: #1877f2;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      opacity: .9;
+    }
+
+    .notice {
+      text-align: center;
+      font-size: 11px;
+      color: #777;
+      margin-top: 15px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="post">
+
+      <div class="header">
+
+        <img
+          class="avatar"
+          src="imagen.jpg"
+          alt="Imagen">
+
+        <div>
+          <div class="name">Publicación</div>
+          <div class="time">Contenido compartido</div>
+        </div>
+
+      </div>
+
+      <div class="content">
+        Mira esta publicación:
+      </div>
+
+      <div class="preview">
+
+        <img
+          src="imagen.jpg"
+          alt="Vista previa">
+
+        <div class="preview-text">
+          <div class="preview-title">
+            Publicación
+          </div>
+
+          <div class="preview-description">
+            Mira el contenido completo.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="button-area">
+        <a
+          class="button"
+          href="https://ed.tc/21suU3"
+          rel="noopener noreferrer">
+          Ver publicación
+        </a>
+      </div>
+
+    </div>
+
+    <div class="notice">
+      Esta página es una vista previa de contenido externo.
+    </div>
+
+  </div>
+
+</body>
+</html>
