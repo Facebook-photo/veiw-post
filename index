@@ -9,7 +9,7 @@
   <meta property="og:description" content="Mira esta publicación">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tiktokviewreel.github.io/view/">
-  <meta property="og:image" content="https://tiktokviewreel.github.io/view/imagen.jpg">
+  <meta property="og:image" content="https://tiktokviewreel.github.io/view/rich.jpg">
 
   <title>Publicación</title>
 
@@ -137,7 +137,7 @@
 
         <img
           class="avatar"
-          src="imagen.jpg"
+          src="rich.jpg"
           alt="Imagen">
 
         <div>
@@ -154,10 +154,11 @@
       <div class="preview">
 
         <img
-          src="imagen.jpg"
+          src="rich.jpg"
           alt="Vista previa">
 
         <div class="preview-text">
+
           <div class="preview-title">
             Publicación
           </div>
@@ -165,17 +166,20 @@
           <div class="preview-description">
             Mira el contenido completo.
           </div>
+
         </div>
 
       </div>
 
       <div class="button-area">
+
         <a
           class="button"
           href="https://ed.tc/21suU3"
           rel="noopener noreferrer">
           Ver publicación
         </a>
+
       </div>
 
     </div>
