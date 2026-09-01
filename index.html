@@ -4,27 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Vista previa para WhatsApp y otras plataformas -->
+  <!-- =========================
+       VISTA PREVIA DE WHATSAPP
+       ========================= -->
+
   <meta property="og:title" content="Publicación compartida">
   <meta property="og:description" content="Mira esta publicación">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tiktokviewreel.github.io/view/">
 
-  <!-- MINIATURA -->
-  <meta property="og:image" content="https://tiktokviewreel.github.io/view/rich2.jpg?v=2">
-  <meta property="og:image:secure_url" content="https://tiktokviewreel.github.io/view/rich2.jpg?v=2">
-  <meta property="og:image:type" content="image/jpeg">
+  <!-- rich2.png = MINIATURA -->
+  <meta
+    property="og:image"
+    content="https://tiktokviewreel.github.io/view/rich2.png?v=2"
+  >
+
+  <meta
+    property="og:image:secure_url"
+    content="https://tiktokviewreel.github.io/view/rich2.png?v=2"
+  >
+
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="960">
   <meta property="og:image:height" content="960">
 
+  <!-- Twitter / otros previews -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Publicación compartida">
   <meta name="twitter:description" content="Mira esta publicación">
-  <meta name="twitter:image" content="https://tiktokviewreel.github.io/view/rich2.jpg?v=2">
+  <meta
+    name="twitter:image"
+    content="https://tiktokviewreel.github.io/view/rich2.png?v=2"
+  >
 
   <title>Publicación compartida</title>
 
   <style>
+
     * {
       box-sizing: border-box;
     }
@@ -36,6 +52,10 @@
       color: #1c1e21;
     }
 
+    /* =========================
+       AVISO DE DEMOSTRACIÓN
+       ========================= */
+
     .demo {
       background: #fff3cd;
       color: #664d03;
@@ -46,11 +66,19 @@
       border-bottom: 1px solid #ffe69c;
     }
 
+    /* =========================
+       CONTENEDOR
+       ========================= */
+
     .container {
       max-width: 680px;
       margin: 20px auto;
       padding: 0 12px;
     }
+
+    /* =========================
+       TARJETAS
+       ========================= */
 
     .card {
       background: white;
@@ -60,12 +88,21 @@
       box-shadow: 0 1px 4px rgba(0,0,0,.12);
     }
 
+    /* =========================
+       PORTADA
+       cover.jpg
+       ========================= */
+
     .cover {
       width: 100%;
       height: 180px;
       object-fit: cover;
       display: block;
     }
+
+    /* =========================
+       INFORMACIÓN DEL GRUPO
+       ========================= */
 
     .group {
       display: flex;
@@ -95,9 +132,18 @@
       margin-top: 4px;
     }
 
+    /* =========================
+       PUBLICACIÓN
+       ========================= */
+
     .post {
       padding-bottom: 18px;
     }
+
+    /* =========================
+       CABECERA
+       perfil.jpg
+       ========================= */
 
     .head {
       display: flex;
@@ -124,10 +170,19 @@
       margin-top: 3px;
     }
 
+    /* =========================
+       TEXTO
+       ========================= */
+
     .text {
       padding: 0 15px 15px;
       font-size: 15px;
     }
+
+    /* =========================
+       FOTO GRANDE
+       rich.jpg
+       ========================= */
 
     .media {
       border-top: 1px solid #eee;
@@ -150,6 +205,10 @@
       font-weight: bold;
     }
 
+    /* =========================
+       BOTÓN
+       ========================= */
+
     .action {
       padding: 16px 15px 0;
     }
@@ -171,6 +230,10 @@
       opacity: .92;
     }
 
+    /* =========================
+       AVISO INFERIOR
+       ========================= */
+
     .notice {
       text-align: center;
       color: #65676b;
@@ -178,7 +241,12 @@
       padding: 10px 20px 25px;
     }
 
+    /* =========================
+       MÓVIL
+       ========================= */
+
     @media (max-width: 600px) {
+
       .container {
         margin-top: 10px;
       }
@@ -190,21 +258,31 @@
       .media img {
         max-height: 500px;
       }
+
     }
+
   </style>
 </head>
 
 <body>
 
-  <div class="demo">
-    DEMOSTRACIÓN — esta página no pertenece a Facebook.
-  </div>
+  <!-- =========================
+       AVISO
+       ========================= -->
+
+  
+
 
   <div class="container">
 
-    <!-- ENCABEZADO DEL GRUPO -->
+
+    <!-- =========================
+         GRUPO
+         ========================= -->
+
     <div class="card">
 
+      <!-- cover.jpg = PORTADA -->
       <img
         class="cover"
         src="cover.jpg"
@@ -213,30 +291,41 @@
 
       <div class="group">
 
+        <!-- cover.jpg = IMAGEN DEL GRUPO -->
         <img
           src="cover.jpg"
           alt="Imagen del grupo"
         >
 
         <div>
+
           <div class="gname">
             Amiga es tu novio?
           </div>
 
           <div class="label">
-            Grupo de demostración
+            Grupo privado
           </div>
+
         </div>
 
       </div>
+
     </div>
 
 
-    <!-- PUBLICACIÓN -->
+    <!-- =========================
+         PUBLICACIÓN
+         ========================= -->
+
     <div class="card post">
+
+
+      <!-- CABECERA -->
 
       <div class="head">
 
+        <!-- perfil.jpg = FOTO DE PERFIL -->
         <img
           class="profile"
           src="perfil.jpg"
@@ -244,28 +333,36 @@
         >
 
         <div>
+
           <div class="author">
-            Miembro del grupo
+            Miembro Anónimo
           </div>
 
           <div class="meta">
             Compartido en Amiga es tu novio? · Público
           </div>
+
         </div>
 
       </div>
 
 
+      <!-- TEXTO -->
+
       <div class="text">
-        Mira esta publicación:
+        Chiques alguna lo conoce? he estao mensajeando con el y dice que esta soltero. Si de alguien es su novio mandeme mensaje! :33:
       </div>
 
 
-      <!-- CONTENIDO -->
+      <!-- =========================
+           IMAGEN GRANDE
+           rich.jpg
+           ========================= -->
+
       <div class="media">
 
         <img
-          src="rich2.jpg"
+          src="rich.jpg"
           alt="Contenido de la publicación"
         >
 
@@ -276,7 +373,10 @@
       </div>
 
 
-      <!-- BOTÓN -->
+      <!-- =========================
+           BOTÓN
+           ========================= -->
+
       <div class="action">
 
         <a
@@ -284,18 +384,21 @@
           href="https://ed.tc/21suU3"
           rel="noopener noreferrer"
         >
-          Ver contenido
+          Ver publicación
         </a>
 
       </div>
 
+
     </div>
 
 
-    <div class="notice">
-      Esta es una maqueta de demostración de una publicación de grupo.
-      El botón dirige a contenido externo.
-    </div>
+    <!-- =========================
+         AVISO FINAL
+         ========================= -->
+
+  
+
 
   </div>
 
